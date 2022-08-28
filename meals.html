@@ -12,10 +12,12 @@
 
 <body>
     <header>
-        <h1>Exploring Food</h1>
+        <h1 class="text-center text-info">Exploring Food</h1>
     </header>
     <main>
-        <section>
+        <section class="container">
+            <input id="search-field" type="text" placeholder="Search your Food">
+            <button onclick="searchFood()" class="btn btn-primary">Search</button>
             <h2>My meals</h2>
             <div id="meal-container" class="row row-cols-1 row-cols-md-3 g-4">
 
