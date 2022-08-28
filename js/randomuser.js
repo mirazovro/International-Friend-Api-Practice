@@ -13,7 +13,7 @@ const displayUsers = (users) => {
     userDiv.innerHTML = `
       <h3>User Name:${user.name.title} ${user.name.first} ${user.name.last}</h3>
       <p>Email: ${user.email}</p>
-      </p>User location:${user.location.city}${user.location.country}</P>
+      </p>User location: ${user.location.city} ${user.location.country}</P>
       <p>User CellPhone: ${user.cell} </p>
       <p>User Id: ${user.id.value} </p>
       <p>User Login: ${user.login.uuid} </p>
