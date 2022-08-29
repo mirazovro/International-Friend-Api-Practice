@@ -11,4 +11,5 @@ const loadData = (loadedData) => {
   blockQutes.innerText = loadedData.quote;
 };
 
+
 loadQutes();
